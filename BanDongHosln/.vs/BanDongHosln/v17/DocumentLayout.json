@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\ASP.NET-MVC\\BanDongHosln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|d:\\asp.net-mvc\\bandonghosln\\bandongho\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|d:\\asp.net-mvc\\bandonghosln\\bandongho\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|D:\\ASP.NET-MVC\\BanDongHosln\\bandongho\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|D:\\ASP.NET-MVC\\BanDongHosln\\bandongho\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|D:\\ASP.NET-MVC\\BanDongHosln\\bandongho\\models\\service\\cusinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\models\\service\\cusinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|D:\\ASP.NET-MVC\\BanDongHosln\\bandongho\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|D:\\ASP.NET-MVC\\BanDongHosln\\bandongho\\models\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\models\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|D:\\ASP.NET-MVC\\BanDongHosln\\bandongho\\areas\\admin\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3F8E30-BE46-4447-A660-BD89E8989637}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\areas\\admin\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Areas\\Admin\\Models\\OrderViewModel.cs",
+              "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "BanDongHo\\Areas\\Admin\\Models\\OrderViewModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T20:04:06.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "BanDongHo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwCoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T19:57:40.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "BanDongHo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeToolTip": "BanDongHo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "ViewState": "AQIAAFUBAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T19:16:05.882Z"
+              "WhenOpened": "2024-04-20T19:55:21.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BanDongHo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BanDongHo\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAACoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T18:39:42.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "BanDongHo\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "BanDongHo\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T18:28:07.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Models\\ViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "BanDongHo\\Models\\ViewModel\\RegisterViewModel.cs",
-              "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Models\\ViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "BanDongHo\\Models\\ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAABFAAAA",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BanDongHo\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T17:36:16.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CusInfoService.cs",
-              "DocumentMoniker": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Models\\Service\\CusInfoService.cs",
-              "RelativeDocumentMoniker": "BanDongHo\\Models\\Service\\CusInfoService.cs",
-              "ToolTip": "D:\\ASP.NET-MVC\\BanDongHosln\\BanDongHo\\Models\\Service\\CusInfoService.cs",
-              "RelativeToolTip": "BanDongHo\\Models\\Service\\CusInfoService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:54:09.013Z"
+              "WhenOpened": "2024-04-20T19:51:07.647Z"
             }
           ]
         }

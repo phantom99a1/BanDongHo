@@ -84,17 +84,22 @@ namespace BanDongHo.Areas.Admin.Controllers
         public String UpdateOrder(OrderViewModel orderViewModel)
         {
             //xử lý số lượng đặt không được vượt quá tồn kho
-            int count = orderViewModel.mangmasp.Count();
+            int? count = orderViewModel.mangmasp?.Count();
             bool kiemtra = false;
             String chuoithongbao = "";
 
-            if(!orderViewModel.tinhtrang.Equals("đã hủy"))
+            if(!(orderViewModel.tinhtrang == "đã hủy"))
             {
+                if(count == 0 || count == null)
+                {
+                    chuoithongbao += "Bạn chưa thêm vào chi tiết hóa đơn! Vui lòng nhấn thêm vào chi tiết hóa đơn!";
+                    kiemtra = true;
+                }
                 for (int i = 0; i < count; i++)
                 {
                     int masp = orderViewModel.mangmasp[i];
                     int soluong = orderViewModel.mangsoluong[i];
-                    String tensp = orderViewModel.mangtensp[i];
+                    string tensp = orderViewModel.mangtensp[i];
 
                     int? soluongtonkho = orderService.TakeQuantityProduct(masp);
 
