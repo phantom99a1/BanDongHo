@@ -1,0 +1,121 @@
+﻿
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_layout.cshtml";
+}
+
+@using BanDongHo.Domain.DataContext
+@{ 
+    BANDONGHOEntities db = new BANDONGHOEntities();
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Dashboard</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-user fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            @{ 
+                                var totalProductBrand = db.THUONGHIEUx.ToList().Count();
+                            }
+                            <div class="huge">@totalProductBrand</div>
+                            <div>Total Product Brands!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/Admin/ProductBrand/Index">
+                    <div class="panel-footer">
+                        <span class="pull-left">View Details</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="panel panel-green">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-usd fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            @{ 
+                                var totalProductCategories = db.LOAISANPHAMs.ToList().Count();
+                            }
+                            <div class="huge">@totalProductCategories</div>
+                            <div>Total Product Categories!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/Admin/ProductCategory">
+                    <div class="panel-footer">
+                        <span class="pull-left">View Details</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="panel panel-yellow">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-shopping-cart fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            @{ 
+                                var totalOrder = db.DONHANGs.Where(m => m.TONGTIEN > 0).ToList().Count();
+                            }
+                            <div class="huge">@totalOrder</div>
+                            <div>total Orders!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/Admin/Order/Index">
+                    <div class="panel-footer">
+                        <span class="pull-left">View Details</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="panel panel-red">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-gift fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            @{ 
+                                var totalProduct = db.SANPHAMs.ToList().Count();
+                            }
+                            <div class="huge">@totalProduct</div>
+                            <div>Total Products!</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/Admin/Product/Index">
+                    <div class="panel-footer">
+                        <span class="pull-left">View Details</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>    
