@@ -38,15 +38,15 @@ CREATE TABLE THUONGHIEU
 ---Tạo bảng đơn đặt hàng
 CREATE TABLE DONHANG
 (
-	MADH INT NOT NULL PRIMARY KEY, 
-	MAKH INT,
-	TRANGTHAI NVARCHAR(20),
-	DIACHIGIAO NTEXT,
-	SDT VARCHAR(12),
-	NGAYDAT DATETIME,
-	NGAYGIAO DATETIME,
-	MOTA NTEXT,
-	TONGTIEN FLOAT
+	[MADH] [int] IDENTITY(1,1) NOT NULL,
+	[MAKH] [int] NULL,
+	[TRANGTHAI] [nvarchar](20) NULL,
+	[DIACHIGIAO] [ntext] NULL,
+	[SDT] [varchar](12) NULL,
+	[NGAYDAT] [datetime] NULL,
+	[NGAYGIAO] [datetime] NULL,
+	[MOTA] [ntext] NULL,
+	[TONGTIEN] [float] NULL,
 )
 
 ------Tạo bảng chi tiết đơn đặt hàng
