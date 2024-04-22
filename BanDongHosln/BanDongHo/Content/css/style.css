@@ -13,7 +13,6 @@ body a{
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-ms-transition: 0.5s all;
 }
 @font-face {
     font-family: 'Lora-Regular';
@@ -188,14 +187,10 @@ span.simpleCart_total {
 .dropdown:after{
 	-webkit-transition: all 150ms ease-in-out;
 	-moz-transition: all 150ms ease-in-out;
-	-ms-transition: all 150ms ease-in-out;
 	transition: all 150ms ease-in-out;
 }
 .dropdown .selected::after,
 .dropdown .scrollable div::after{
-	-webkit-pointer-events: none;
-	-moz-pointer-events: none;
-	-ms-pointer-events: none;
 	pointer-events: none;
 }
 /* WRAPPER */
@@ -502,8 +497,6 @@ ul.callbacks_tabs.callbacks2_tabs {
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
-	-o-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 .about-left figure figcaption::before,
@@ -535,7 +528,6 @@ figure.effect-bubba figcaption::after {
 	-webkit-transition: opacity 0.35s,-webkit-transform 0.35s;	
 	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
 	-o-transition: opacity 0.35s, -o-transform 0.35s;
-	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 figure.effect-bubba figcaption::before {
@@ -561,7 +553,6 @@ figure.effect-bubba h4,figure.effect-bubba h2 {
 	-webkit-transition: transform 0.35s;
 	-moz-transition: transform 0.35s;
 	-o-transition: -o-transform 0.35s;
-	-ms-transition: -ms-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
 	-moz-transform: translate3d(0,-20px,0);
@@ -582,7 +573,6 @@ figure.effect-bubba p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
 	-o-transition: opacity 0.35s, -o-transform 0.35s;
-	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
 	-moz-transform: translate3d(0,20px,0);
@@ -671,7 +661,7 @@ img.zoom-img {
     -moz-transition-duration: 250ms;
 	margin: 0 auto;
 }
-.product-left:hover img.zoom-img{
+/*.product-left:hover img.zoom-img{
     -webkit-transform: scale(1.05);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 700ms;
@@ -680,40 +670,39 @@ img.zoom-img {
     -moz-transition-duration: 700ms;
     overflow: hidden;
 	cursor:pointer;
-}
+}*/
 a.mask {
     text-decoration: none;
     overflow: hidden;
     display: block;
     padding: 12px 0px;
 }
-.product-left:hover .product-bottom h3{
-	color:#73B6E1;
+/*.product-left:hover .product-bottom h3{
+	color:red;
 	transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
-}
-.product-left:hover .product-bottom h4 span{
-	color:#73B6E1;
+}*/
+/*.product-left:hover .product-bottom h4 span{
+	color:red;
 	transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
-}
-.product-left:hover .product-main{
-	border:1px solid #73B6E1;
+}*/
+/*.product-left:hover .product-main{
+	border:1px solid red;
 	transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-}
-.product-left:hover .srch{
+}*/
+/*.product-left:hover .srch{
 	display:block;
-}
+}*/
 .srch {
     display: none;
     position: absolute;
@@ -746,7 +735,6 @@ a.mask {
 	transition: .5s all;
     -webkit-transition: .5s all;
     -o-transition: .5s all;
-    -ms-transition: .5s all;
     -moz-transition: .5s all;
     transform: rotatey(360deg);
     -webkit-transform: rotatey(360deg);

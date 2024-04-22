@@ -96,29 +96,7 @@
 
                             <h5 class="item_price">@String.Format("{0:0,0}", (Model.Product.Product.DONGIA*(1-(float)Model.Product.Promotion/100))) vnđ</h5>
                             <p>@Model.Product.Product.MOTA</p>
-                            @*<div class="available">
-                                    <ul>
-                                        <li>
-                                            Color
-                                            <select>
-                                                <option>Silver</option>
-                                                <option>Black</option>
-                                                <option>Dark Black</option>
-                                                <option>Red</option>
-                                            </select>
-                                        </li>
-                                        <li class="size-in">
-                                            Size<select>
-                                                <option>Large</option>
-                                                <option>Medium</option>
-                                                <option>small</option>
-                                                <option>Large</option>
-                                                <option>small</option>
-                                            </select>
-                                        </li>
-                                        <div class="clearfix"> </div>
-                                    </ul>
-                                </div>*@
+                            
                             <ul class="tag-men">
                                 <li>
                                     <span>TAG</span>
@@ -131,7 +109,7 @@
                     </div>
                     <div class="clearfix"> </div>
                 </div>
-                <div class="tabs">
+                @*<div class="tabs">
                     <ul class="menu_drop">
                         <li class="item3">
                             <a href="#"><img src="~/images/arrow.png" alt="">Reviews</a>
@@ -140,8 +118,8 @@
                             </ul>
                         </li>         
                     </ul>
-                </div>
-                <div class="latestproducts">
+                </div>*@
+                @*<div class="latestproducts">
                     <div class="product-one">
                         @foreach (var item in Model.ListProductsRelative)
                         {
@@ -162,9 +140,9 @@
 
                         <div class="clearfix"></div>
                     </div>
-                </div>
+                </div>*@
             </div>
-            <div class="col-md-3 single-right">
+            @*<div class="col-md-3 single-right">
                 <div class="w_sidebar">
                     <section class="sky-form" style="height:865px; overflow:hidden">
                         <h4>New Products</h4>
@@ -190,7 +168,7 @@
                         </div>
                     </section>
                 </div>
-            </div>
+            </div>*@
             <div class="clearfix"> </div>
         </div>
     </div>
